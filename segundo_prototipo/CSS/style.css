@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color: rgb(116, 85, 85);
+    --font-family: "Poppins", sans-serif;
+    --gap-icones: 8px;
+    --width-conjuntos: 330px;
+    --height-conjuntos: 120px;
+}
+
+.cabecalho {
+    background-color: var(--color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    height: 60px;
+}
+
+.cabecalho .empresa {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 90px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.cabecalho .links {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-right: 90px;
+}
+
+.corpo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px 200px;
+}
+
+.corpo img {
+    width: 460px;
+}
+
+.corpo .solucoes {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.corpo .solucoes h1 {
+    color: var(--color);
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.corpo .solucoes h4 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-style: normal;
+}
+
+.corpo .solucoes button {
+    width: 120px;
+    height: 45px ;
+    border: none;
+    background-color: var(--color);
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.corpo2 {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin: 40px 90px;
+    color: var(--color);
+    font-family: var(--font-family);
+    font-size: 18px;
+}
+
+.corpo2 .primeiro_conjunto {
+    border: 2px solid rgba(116, 85, 85, 0.24);
+    width: var(--width-conjuntos);
+    height: var(--height-conjuntos);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-icones);    
+}
+
+.corpo2 img {
+    width: 40px;
+}
+
+.corpo2 .segundo_conjunto {
+    border: 2px solid rgba(116, 85, 85, 0.24);
+    width: var(--width-conjuntos);
+    height: var(--height-conjuntos);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    gap: var(--gap-icones);
+}
+
+.corpo2 .terceiro_conjunto {
+    border: 2px solid rgba(116, 85, 85, 0.24);
+    width: var(--width-conjuntos);
+    height: var(--height-conjuntos);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-icones)  
+}
+
+.corpo3 {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin: 40px 90px;
+    color: var(--color);
+    font-family: var(--font-family);
+    font-size: 18px;
+}
+
+.corpo3 .quarto_conjunto {
+    border: 2px solid rgba(116, 85, 85, 0.24);
+    width: var(--width-conjuntos);
+    height: var(--height-conjuntos);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-icones)  
+}
+
+.corpo3 .quinto_conjunto {
+    border: 2px solid rgba(116, 85, 85, 0.24);
+    width: var(--width-conjuntos);
+    height: var(--height-conjuntos);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-icones)  
+}
+
+.corpo3 .sexto_conjunto {
+    border: 2px solid rgba(116, 85, 85, 0.24);
+    width: var(--width-conjuntos);
+    height: var(--height-conjuntos);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-icones)  
+}
+
+.corpo3 img {
+    width: 40px;
+}
